@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.First-top{
+    color: var(--tp-text-body);
+    font-family: var(--tp-ff-body);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.First-item {
+    text-align: center;
+}
+
+.item{
+    padding: 29px 19px 25px;
+}
+.First-item img{
+
+    padding: 35px 45px;
+    border-radius: 50%;
+    background-color: #ccdff1 ;
+}
+.First-bottom-content p{
+    font-size: 14px;
+    color: var(--tp-text-body);
+margin-top: 0;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+    
+
+.container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: calc(var(--bs-gutter-x)*.5);
+    padding-right: calc(var(--bs-gutter-x)*.5);
+    width: 100%;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)*-.5);
+    margin-right: calc(var(--bs-gutter-x)*-.5);
+    margin-top: calc(var(--bs-gutter-y)*-1);
+    position: relative;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)*-.5);
+    margin-right: calc(var(--bs-gutter-x)*-.5);
+    margin-top: calc(var(--bs-gutter-y)*-1);
+}
+.First-bottom {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.First-bottom-item {
+    padding: 79px 19px 25px;
+    background-color: var(--tp-grey-1);
+}
+.align-items-start{
+align-items: flex-start!important;
+}
+.second-top-title{
+    position: relative;
+}
+.second-top-title svg{
+    bottom: -12px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    color: #ff2d55;
+}
+.second-top-title-wrapper h3{
+    font-size: 40px;
+}
+.second-tap-border {
+position: relative;
+}
+.second-tap-border .mb-45{
+    margin-bottom: 45px;
+
+}
+.second-tap-border d-flex{
+    display: flex;
+}
+.row2{
+    align-items: center;
+
+}
+
+.row2 hr{
+    width: 350px;
+    height: 2px;
+    color: rgb(154, 153, 153);
+  background-color:rgb(154, 153, 153) ;
+position: absolute;
+top: 25px;
+left: 400px;
+}
+.cursor-pointer img{
+    transition: .5s;
+}
+.cursor-pointer img:hover{
+    transform: scale(1.1);
+}
+.cursor-pointer {
+    transition: .8s;
+    font-size: 20px;
+}
+.cursor-pointer:hover{
+color: #3064de;
+}
+.container2{
+    padding: 4rem;
+}
+
+
+.second-top-tab a{
+    color: black;
+padding-right: 30px;
+font-size: 20px;
+position: relative;
+}
+.second-top-tab a svg{
+    position: absolute;
+    z-index: -1;
+    color: #2d37ff;
+    left: 3px;
+    bottom: -22px;
+vertical-align: middle;
+width: 50px;
+}
+.card img{
+    width: 100%;
+}
+.second-cards{
+    margin-top: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 0px 43px -7px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 2px 0px 43px -7px rgba(0,0,0,0.72);
+    -moz-box-shadow: 2px 0px 43px -7px rgba(0,0,0,0.72);
+    
+}
+.card img:hover{
+    transform: scaleY(0.9);
+}
+.card{
+    border: 1px solid rgb(213, 208, 208);
+  border-radius: 15px;
+   margin: 20px 10px;
+   transition: .6s;
+   
+
+}
+.card img{
+    border-bottom: 1px solid rgb(213, 208, 208);
+}
+.card-body {
+    padding: 10px 20px;
+}
+.card-body h5{
+color: rgb(47, 44, 44);
+font-size: 15px;
+font-weight: 100;
+}
+.card-body h4{
+    margin: 5px 0px;
+    font-size: 17px;
+    font-weight: 800;
+}
+.card-body i{
+    color: orange;
+}
+.card-body p{
+    font-size: 15px;
+    margin-left: 3px;
+    display: inline;
+}
+.card-body span{
+    font-size: 20px;
+    color: rgb(46, 110, 199);
+    font-weight: 900;
+}
+.z {
+    text-decoration: line-through;
+    font-size: 10px;
+    color: black;
+}
+#Zahra .part{
+    background-color: rgba(241, 238, 238, 0.416);
+    margin: 10px 20px;
+    padding: 15px 5px;
+    
+}
+.icon1 i{
+    color:#ff2d55;
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+@media (width<768px){
+    
+    .second-top-title{
+margin-bottom: 50px;
+    }
+}
